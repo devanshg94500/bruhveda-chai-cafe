@@ -42,25 +42,25 @@ export default function ChaiMoodQuiz({ isOpen, onClose, onSelectProduct }) {
   ];
 
   const TASTE_OPTIONS = [
-    { id: 'kadak', label: 'Spicy & Fiery Kadak (Adrak + Clove)', icon: '🌶️' },
-    { id: 'royal', label: 'Creamy & Saffron Rich (Dum Kesar)', icon: '👑' },
-    { id: 'iced', label: 'Chilled & Modern (Cold Brew / Biscoff / Boba)', icon: '🧊' },
-    { id: 'pure', label: 'Herbal & Fragrant Green Kahwa', icon: '🍃' }
+    { id: 'kadak', label: 'Zesty & Fiery Kadak (Adrak + Clove)', icon: '🌶️' },
+    { id: 'aromatic', label: 'Aromatic & Cardamom Infused (Elaichi)', icon: '✨' },
+    { id: 'woody', label: 'Warm Cinnamon & Spices (Cinnamon Chai)', icon: '🪵' },
+    { id: 'herbal', label: 'Botanical & Herbal (Tulsi / Turmeric)', icon: '🍃' }
   ];
 
   const handleCalculateMatch = (tasteId) => {
     setSelectedTaste(tasteId);
 
-    // Matching logic
-    let matchedId = 'kesariya-dum-kulhad';
+    // Matching logic for official BruhVedaa menu
+    let matchedId = 'kulhad-chai-signature';
     if (selectedMood === 'focus') {
-      matchedId = tasteId === 'iced' ? 'dirty-iced-chai-espresso' : 'brahmi-brain-booster';
+      matchedId = tasteId === 'herbal' ? 'ginger-turmeric-chai' : 'masala-chai';
     } else if (selectedMood === 'tired') {
-      matchedId = 'tulsi-adrak-kadak';
+      matchedId = 'adrak-chai';
     } else if (selectedMood === 'relax') {
-      matchedId = tasteId === 'pure' ? 'kashmiri-shahi-kahwa' : 'ashwagandha-sleep-chai';
+      matchedId = tasteId === 'aromatic' ? 'elaichi-chai' : 'herbal-masala-chai';
     } else if (selectedMood === 'fun') {
-      matchedId = tasteId === 'iced' ? 'biscoff-kulhad-shake' : 'kesariya-dum-kulhad';
+      matchedId = tasteId === 'woody' ? 'cinnamon-chai' : 'kulhad-chai-signature';
     }
 
     const prod = PRODUCTS.find(p => p.id === matchedId) || PRODUCTS[0];

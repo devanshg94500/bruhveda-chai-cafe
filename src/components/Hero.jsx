@@ -128,28 +128,28 @@ export default function Hero({ onOpenQuiz, onOpenLocations, onQuickOrderFeatured
                 {/* Floating Price Pill */}
                 <div className="absolute bottom-3 left-3 bg-[#120B07]/90 backdrop-blur-md border border-terracotta/40 px-3 py-1.5 rounded-xl text-left">
                   <div className="text-[10px] text-chai-300 uppercase tracking-widest font-bold">Only</div>
-                  <div className="text-lg font-black text-saffron leading-none">₹89 <span className="text-xs text-chai-400 font-normal">/ Kulhad</span></div>
+                  <div className="text-lg font-black text-saffron leading-none">₹49 <span className="text-xs text-chai-400 font-normal">/ Kulhad</span></div>
                 </div>
 
                 <div className="absolute bottom-3 right-3 bg-terracotta/90 text-white text-xs font-bold px-3 py-1.5 rounded-xl flex items-center gap-1">
                   <Heart className="w-3.5 h-3.5 fill-white" />
-                  <span>340+ Loved</span>
+                  <span>420+ Loved</span>
                 </div>
               </div>
 
               {/* Card Meta & Quick Order Button */}
               <div className="space-y-2">
                 <h3 className="text-xl font-bold font-display text-white group-hover:text-saffron transition-colors">
-                  Kesariya Dum Kulhad Chai
+                  Kulhad Chai (Signature)
                 </h3>
                 <p className="text-xs text-chai-300 line-clamp-2">
-                  Slow-brewed over charcoal embers with Kashmiri Mongra Kesar, green cardamom, and fresh buffalo milk. Served in Mitti Kulhad.
+                  Slow-brewed and served in traditional raw clay kulhads for an earthy, authentic experience. Exclusively sweetened with unrefined jaggery (Gud).
                 </p>
 
                 <div className="pt-3 flex items-center justify-between">
                   <div className="flex items-center gap-2 text-xs text-chai-400">
                     <ShieldCheck className="w-4 h-4 text-emerald-400" />
-                    <span>Pure Vedic Ingredients</span>
+                    <span>Unrefined Gud • Raw Clay Kulhad</span>
                   </div>
 
                   <button

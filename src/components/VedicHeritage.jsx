@@ -11,7 +11,7 @@ export default function VedicHeritage() {
       botanical: 'Crocus Sativus',
       benefit: 'Mood Elevator & Cellular Radiance',
       description: 'Grade-A handpicked Mongra saffron from the fields of Pampore, Kashmir. Rich in crocin and safranal to promote calm serenity and glowing vitality.',
-      inBrews: ['Kesariya Dum Kulhad Chai', 'Royal Kashmiri Kahwa', 'Kesar Pista Mawa Cake'],
+      inBrews: ['Kulhad Chai (Signature)', 'Elaichi Chai'],
       icon: '🌸',
       accent: 'border-saffron'
     },
@@ -21,19 +21,19 @@ export default function VedicHeritage() {
       botanical: 'Ocimum Tenuiflorum',
       benefit: 'Immunity Shield & Prana Flow',
       description: 'Revered as the Queen of Herbs in Charaka Samhita. Strengthens lungs, soothes throat congestion, and regulates internal stress hormones.',
-      inBrews: ['Kadak Tulsi Adrak Immunity Chai'],
+      inBrews: ['Tulsi Chai', 'Herbal Masala Chai'],
       icon: '🌿',
       accent: 'border-emerald-500'
     },
     {
-      name: 'Organic Brahmi',
-      hindi: 'ब्राह्मी',
-      botanical: 'Bacopa Monnieri',
-      benefit: 'Cognitive Sharpness & Memory Focus',
-      description: 'Ancient medhya rasayana herb cherished by yogis and modern coders alike. Enhances synaptic transmission and mental stamina without caffeine jitters.',
-      inBrews: ['Brahmi Zen Brain Booster Chai'],
-      icon: '🧠',
-      accent: 'border-cyan-500'
+      name: 'Ceylon Dalchini (Cinnamon)',
+      hindi: 'दालचीनी',
+      botanical: 'Cinnamomum Verum',
+      benefit: 'Metabolic Balance & Comfort',
+      description: 'Hand-rolled Ceylon cinnamon sticks with warm, woody undertones that naturally balance blood glucose and provide grounding warmth.',
+      inBrews: ['Cinnamon Chai', 'Masala Chai'],
+      icon: '🪵',
+      accent: 'border-amber-600'
     },
     {
       name: 'KSM-66 Ashwagandha',
@@ -41,7 +41,7 @@ export default function VedicHeritage() {
       botanical: 'Withania Somnifera',
       benefit: 'Cortisol Reduction & Evening Rest',
       description: 'Full-spectrum organic root extract scientifically studied for lowering stress, stabilizing nervous energy, and nurturing rejuvenating sleep.',
-      inBrews: ['Ashwagandha Moon Velvet Chai', 'Power Boost Herb Shots'],
+      inBrews: ['Herbal Masala Chai', 'Power Boost Herb Shots'],
       icon: '🌙',
       accent: 'border-purple-500'
     },
@@ -51,7 +51,7 @@ export default function VedicHeritage() {
       botanical: 'Zingiber Officinale',
       benefit: 'Kindles Digestive Fire (Agni)',
       description: 'Hand-pounded fresh hill ginger with sun-dried sonth powder. Wakes up the gut, relieves fatigue, and gives that quintessential Indian kadak kick.',
-      inBrews: ['Tulsi Adrak Chai', 'Bruh’s Dirty Iced Chai'],
+      inBrews: ['Adrak Chai', 'Ginger-Turmeric Chai', 'Masala Chai'],
       icon: '⚡',
       accent: 'border-terracotta'
     }

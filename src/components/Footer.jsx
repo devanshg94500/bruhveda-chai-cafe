@@ -64,22 +64,25 @@ export default function Footer({ onOpenLocations }) {
               <BrandLogo size="md" />
             </div>
             <p className="text-xs text-chai-400 leading-relaxed">
-              Where centuries-old Ayurvedic botanicals collide with modern street vibes. Slow-brewed on charcoal embers. Served steaming in Mitti Kulhads.
+              Traditional Indian tea, Ayurvedic inspiration, and exclusively sweetened with unrefined jaggery (Gud). Served steaming in raw clay kulhads.
             </p>
             <div className="text-xs text-emerald-400 font-medium flex items-center gap-1.5">
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-              Open Daily: 7:00 AM – 2:00 AM
+              Open Daily: 8:00 AM – 11:00 PM
+            </div>
+            <div className="text-xs text-chai-300 font-semibold pt-1">
+              📞 Contact: <a href="tel:+919235623965" className="text-saffron hover:underline">+91 92356 23965</a>
             </div>
           </div>
 
           {/* Quick Links */}
           <div className="space-y-3">
-            <div className="text-xs font-bold text-white uppercase tracking-wider">Quick Brews</div>
+            <div className="text-xs font-bold text-white uppercase tracking-wider">Our Brews</div>
             <ul className="space-y-2 text-xs">
-              <li><a href="#menu" className="hover:text-saffron transition-colors">Vedic Dum Chais</a></li>
-              <li><a href="#menu" className="hover:text-saffron transition-colors">Street Iced Shakes</a></li>
-              <li><a href="#menu" className="hover:text-saffron transition-colors">Truffle Bun Maska</a></li>
-              <li><a href="#menu" className="hover:text-saffron transition-colors">Sourdough Samosa Slider</a></li>
+              <li><a href="#menu" className="hover:text-saffron transition-colors">Kulhad Chai (Signature)</a></li>
+              <li><a href="#menu" className="hover:text-saffron transition-colors">Masala & Elaichi Chai</a></li>
+              <li><a href="#menu" className="hover:text-saffron transition-colors">Adrak & Cinnamon Chai</a></li>
+              <li><a href="#menu" className="hover:text-saffron transition-colors">Tulsi & Turmeric Herbal</a></li>
             </ul>
           </div>
 
@@ -88,19 +91,22 @@ export default function Footer({ onOpenLocations }) {
             <div className="text-xs font-bold text-white uppercase tracking-wider">Our Addas</div>
             <ul className="space-y-2 text-xs">
               <li>
-                <button onClick={onOpenLocations} className="hover:text-saffron transition-colors text-left">
-                  Bengaluru (100ft Indiranagar)
+                <button onClick={onOpenLocations} className="hover:text-saffron transition-colors text-left font-bold text-white">
+                  📍 Jhansi (Near GIC Ground) • Flagship
                 </button>
               </li>
               <li>
                 <button onClick={onOpenLocations} className="hover:text-saffron transition-colors text-left">
-                  Gurugram (DLF CyberHub)
+                  Mumbai (Bandra West)
                 </button>
               </li>
               <li>
                 <button onClick={onOpenLocations} className="hover:text-saffron transition-colors text-left">
-                  Mumbai (Pali Hill Bandra)
+                  New Delhi Hub
                 </button>
+              </li>
+              <li className="text-chai-400 text-[11px] pt-1">
+                Near GIC Ground, Jhansi, Uttar Pradesh
               </li>
             </ul>
           </div>
