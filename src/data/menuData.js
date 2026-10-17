@@ -16,7 +16,7 @@ export const PRODUCTS = [
     rating: 4.9,
     reviewsCount: 342,
     badge: 'Bestseller',
-    image: 'https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=800&q=80',
     dosha: 'Tridoshic (All Vitals)',
     spiceLevel: 2, // 1 to 3
     isVeg: true,

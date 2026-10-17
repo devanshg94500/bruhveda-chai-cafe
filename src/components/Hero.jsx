@@ -11,26 +11,6 @@ export default function Hero({ onOpenQuiz, onOpenLocations, onQuickOrderFeatured
       <div className="absolute top-1/3 left-1/4 w-[400px] h-[400px] bg-saffron/15 rounded-full blur-[120px] pointer-events-none -z-10" />
       <div className="absolute -bottom-20 right-10 w-[500px] h-[500px] bg-cardamom-700/20 rounded-full blur-[140px] pointer-events-none -z-10" />
 
-      {/* Decorative floating spice elements */}
-      <div className="absolute top-32 left-[8%] hidden xl:block animate-float-slow opacity-60">
-        <div className="bg-[#241610]/80 backdrop-blur-md border border-saffron/20 p-3 rounded-2xl flex items-center gap-2 text-xs text-saffron">
-          <span>✨</span>
-          <span className="font-semibold">Pure Kashmiri Mongra Saffron</span>
-        </div>
-      </div>
-      <div className="absolute bottom-28 left-[10%] hidden xl:block animate-float-medium opacity-60">
-        <div className="bg-[#241610]/80 backdrop-blur-md border border-terracotta/20 p-3 rounded-2xl flex items-center gap-2 text-xs text-terracotta-light">
-          <span>🌿</span>
-          <span className="font-semibold">Raw Jaggery & A2 Desi Gir Cow Milk</span>
-        </div>
-      </div>
-      <div className="absolute top-44 right-[8%] hidden xl:block animate-float-medium opacity-60">
-        <div className="bg-[#241610]/80 backdrop-blur-md border border-cardamom-500/20 p-3 rounded-2xl flex items-center gap-2 text-xs text-emerald-400">
-          <span>🪔</span>
-          <span className="font-semibold">Charcoal Ember Dum Brewed</span>
-        </div>
-      </div>
-
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           
@@ -131,7 +111,7 @@ export default function Hero({ onOpenQuiz, onOpenLocations, onQuickOrderFeatured
               {/* Central Image Container with Animated Steam */}
               <div className="relative rounded-2xl overflow-hidden aspect-[4/3] bg-gradient-to-t from-[#120B07] to-transparent mb-5 flex items-end justify-center">
                 <img 
-                  src="https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=800&q=80" 
+                  src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=800&q=80" 
                   alt="Kesariya Dum Kulhad Chai"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" 
                 />
