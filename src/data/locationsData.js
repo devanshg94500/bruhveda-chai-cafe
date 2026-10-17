@@ -1,0 +1,50 @@
+export const CAFE_LOCATIONS = [
+  {
+    id: 'flagship-indiranagar',
+    name: 'bruhVeda Flagship • Indiranagar Adda',
+    city: 'Bengaluru',
+    area: '100ft Road, Indiranagar',
+    address: 'Plot 42, Near Defence Colony Corner, 100 Feet Rd, HAL 2nd Stage, Indiranagar, Bengaluru, Karnataka 560038',
+    status: 'Open Now',
+    hours: '7:00 AM – 2:00 AM Everyday',
+    phone: '+91 98765 43210',
+    email: 'indiranagar@bruhveda.in',
+    mapLink: 'https://maps.google.com/?q=Indiranagar+Bangalore',
+    features: ['Pet Friendly Verandah', '500 Mbps Work WiFi', 'Live Tandoor Kulhad Counter', 'Board Games & Books', 'Late Night Bites'],
+    vibe: 'Green courtyard with clay brick arches, low wooden baithak seating, and acoustic indie tunes.',
+    image: 'https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=80',
+    coordinates: { lat: 12.9719, lng: 77.6412 }
+  },
+  {
+    id: 'cyberhub-gurugram',
+    name: 'bruhVeda Hustle Hub • DLF CyberCity',
+    city: 'Gurugram',
+    area: 'DLF CyberHub, Phase 2',
+    address: 'Shop 14, Ground Promenade, DLF CyberHub, DLF Phase 2, Sector 24, Gurugram, Haryana 122002',
+    status: 'Open Now',
+    hours: '8:00 AM – 3:00 AM Everyday',
+    phone: '+91 98112 34567',
+    email: 'cyberhub@bruhveda.in',
+    mapLink: 'https://maps.google.com/?q=CyberHub+Gurgaon',
+    features: ['Corporate Delivery Fleet', 'Noise-Cancelling Pods', 'Grab & Go Rapid Counter', 'Zero-Sugar Vedic Menu'],
+    vibe: 'High-energy industrial bronze & neon warm space built for founders, coders, and quick brainstorms.',
+    image: 'https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&w=800&q=80',
+    coordinates: { lat: 28.4949, lng: 77.0895 }
+  },
+  {
+    id: 'bandra-mumbai',
+    name: 'bruhVeda Coastal Baithak • Bandra West',
+    city: 'Mumbai',
+    area: 'Pali Hill, Bandra West',
+    address: 'Corner of 16th Road & Pali Village, Bandra West, Mumbai, Maharashtra 400050',
+    status: 'Open Now',
+    hours: '6:30 AM – 1:30 AM Everyday',
+    phone: '+91 98200 98765',
+    email: 'bandra@bruhveda.in',
+    mapLink: 'https://maps.google.com/?q=Pali+Hill+Bandra+West+Mumbai',
+    features: ['Outdoor Sea-breeze Deck', 'Poetry & Acoustic Evenings', 'Artisanal Bun Maska Bar', 'Wheelchair Accessible'],
+    vibe: 'Artistic bohemian vibes with brass samovars, hand-painted murals, and vintage Bollywood vinyls playing softly.',
+    image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80',
+    coordinates: { lat: 19.0600, lng: 72.8333 }
+  }
+];
